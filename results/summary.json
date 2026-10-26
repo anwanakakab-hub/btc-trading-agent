@@ -1,0 +1,46 @@
+{
+  "full": {
+    "initial_usd": 10000,
+    "final_usd": 9400.62372301208,
+    "return_pct": -5.993762769879196,
+    "buy_hold_return_pct": -11.977181279099137,
+    "max_daily_close_drawdown_pct": 8.946131102763887,
+    "trades": 24,
+    "win_rate_pct": 45.833333333333336,
+    "start": "2025-11-30T00:00:00+00:00",
+    "end": "2026-10-23T00:00:00+00:00",
+    "config": {
+      "capital": 10000,
+      "window": 20,
+      "dip": 0.03,
+      "stop": 0.05,
+      "target": 0.1,
+      "risk": 0.01,
+      "allocation": 0.25,
+      "fee": 0.006,
+      "slippage": 0.001
+    }
+  },
+  "holdout": {
+    "initial_usd": 10000,
+    "final_usd": 10111.60164139884,
+    "return_pct": 1.1160164139883966,
+    "buy_hold_return_pct": 24.672894326958804,
+    "max_daily_close_drawdown_pct": 0.44513743820092655,
+    "trades": 2,
+    "win_rate_pct": 100.0,
+    "start": "2026-07-11T00:00:00+00:00",
+    "end": "2026-10-23T00:00:00+00:00",
+    "config": {
+      "capital": 10000,
+      "window": 20,
+      "dip": 0.03,
+      "stop": 0.05,
+      "target": 0.1,
+      "risk": 0.01,
+      "allocation": 0.25,
+      "fee": 0.006,
+      "slippage": 0.001
+    }
+  }
+}
